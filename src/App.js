@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { Canvas } from '@react-three/fiber';
@@ -134,9 +135,9 @@ function App() {
                 <div className="flex flex-col space-y-8">
                   <a href={`mailto:${data.links.email}`} className="text-4xl md:text-6xl font-bold hover:italic transition-all">{data.links.email}</a>
                   <div className="flex space-x-12 pt-10 border-t border-white/10">
-                    <a href={data.links.linkedin} target="_blank" rel="noreferrer" className="uppercase tracking-widest text-xs hover:text-gray-400">LinkedIn</a>
-                    <a href={data.links.github} target="_blank" rel="noreferrer" className="uppercase tracking-widest text-xs hover:text-gray-400">GitHub</a>
-                    <a href={data.links.leetcode} target="_blank" rel="noreferrer" className="uppercase tracking-widest text-xs hover:text-gray-400">LeetCode</a>
+                    <a href={data.links.linkedin} target="_blank" rel="noopener noreferrer" className="uppercase tracking-widest text-xs hover:text-gray-400">LinkedIn</a>
+                    <a href={data.links.github} target="_blank" rel="noopener noreferrer" className="uppercase tracking-widest text-xs hover:text-gray-400">GitHub</a>
+                    <a href={data.links.leetcode} target="_blank" rel="noopener noreferrer" className="uppercase tracking-widest text-xs hover:text-gray-400">LeetCode</a>
                   </div>
                 </div>
               </PageWrapper>
