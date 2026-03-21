@@ -156,7 +156,6 @@ void main() {
 
 const BlackHole = () => {
     const materialRef = useRef();
-    const { size } = useThree();
 
     const uniforms = useMemo(() => ({
         iTime: { value: 0 },
