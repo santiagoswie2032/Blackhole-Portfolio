@@ -2,9 +2,9 @@
 import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { Canvas } from '@react-three/fiber';
-import { Stars } from '@react-three/drei';
 import { motion, AnimatePresence } from 'framer-motion';
 import BlackHole from './components/Blackhole';
+import FixedStars from './components/FixedStars';
 import { RESUME_DATA as data } from './data';
 
 const PageWrapper = ({ children }) => (
@@ -41,7 +41,7 @@ function App() {
           <Canvas dpr={1} camera={{ position: [0, 0, 5] }}>
             <Suspense fallback={null}>
               <BlackHole />
-              <Stars radius={100} depth={50} count={2000} factor={4} saturation={0} fade speed={0.5} />
+              <FixedStars radius={100} depth={50} count={2000} factor={4} saturation={0} fade speed={0.5} />
             </Suspense>
           </Canvas>
         </div>
