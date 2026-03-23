@@ -63,9 +63,9 @@ export const RESUME_DATA = {
         tools: "Docker, Git, Linux, YOLOv8"
     },
     links: {
-        github: "https://github.com/vikalpbordekar",
-        linkedin: "https://linkedin.com/in/vikalpbordekar",
-        leetcode: "https://leetcode.com/vikalpbordekar",
+        github: "https://github.com/santiagoswie2032",
+        linkedin: "https://www.linkedin.com/in/vikalp-bordekar-2800833a4",
+        leetcode: "https://leetcode.com/santiagos2032",
         email: "vikalpbordekar@gmail.com",
         phone: "+91 7770945139"
     }
